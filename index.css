@@ -1,0 +1,169 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	height: 100vh;
+	width: 100vw;
+	/*animation-name: to67;*/
+	animation-duration:2s;
+	animation-delay: 0s;
+	/*background-image: url('lannister.jpg');*/
+	background-size: cover;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	text-shadow: 3px 2px grey;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.days1{
+	color:white;
+	width:100px;
+	height: 100px;
+	text-align: center;
+	text-orientation: 20px;
+	margin: 7px;
+	font-size: 15px;
+	background: rgba(200,30,40,0.6);
+}
+.days{
+	width:100px;
+	height: 100px;
+	margin: 7px;
+	display: flex;
+	color:white;
+	font-size: 30px;
+	background:rgba(25,90,180,0.2); 
+}
+.days:hover{
+	background:rgba(25,90,180,0.7);
+}
+.daysbox{
+	display: flex;
+	flex-direction: row;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+}
+.topbar{
+	margin:10px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.topbar:hover{
+	background:rgba(40,40,256,0.1);
+}
+.topbutton{
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+	margin:5px;
+	background:rgba(25,40,200,0.3);
+}
+@keyframes from0to1{
+	from {background-image: url("oldtree.jpg")}
+	to {background-image: url("bolton.jpg")}
+}
+@keyframes from1to0{
+	from {background-image: url("bolton.jpg")}
+	to {background-image: url("oldtree.jpg")}
+}
+@keyframes from1to2{
+	from {background-image: url("bolton.jpg")}
+	to {background-image: url("greyjoy.jpg")}
+}
+@keyframes from2to1{
+	from {background-image: url("greyjoy.jpg")}
+	to {background-image: url("bolton.jpg")}
+}
+
+@keyframes from2to3{
+	from {background-image: url("greyjoy.jpg")}
+	to {background-image: url("lannister.jpg")}
+}
+
+@keyframes from3to2{
+	from {background-image: url("lannister.jpg")}
+	to {background-image: url("greyjoy.jpg")}
+}
+
+@keyframes from3to4{
+	from {background-image: url("lannister.jpg")}
+	to {background-image: url("mallister.jpg")}
+}
+@keyframes from4to3{
+	from {background-image: url("mallister.jpg")}
+	to {background-image: url("lannister.jpg")}
+}
+@keyframes from4to5{
+	from {background-image: url("mallister.jpg")}
+	to {background-image: url("mormont.jpg")}
+}
+@keyframes from5to4{
+	from {background-image: url("mormont.jpg")}
+	to {background-image: url("mallister.jpg")}
+}
+@keyframes from5to6{
+	from {background-image: url("mormont.jpg")}
+	to {background-image: url("baratheon.jpg")}
+}
+@keyframes from6to5{
+	from {background-image: url("baratheon.jpg")}
+	to {background-image: url("mormont.jpg")}
+}
+@keyframes from6to7{
+	from {background-image: url("baratheon.jpg")}
+	to {background-image: url("stark.jpg")}
+}
+@keyframes from7to6{
+	from {background-image: url("stark.jpg")}
+	to {background-image: url("baratheon.jpg")}
+}
+@keyframes from7to8{
+	from {background-image: url("stark.jpg")}
+	to {background-image: url("targaryen.jpg")}
+}
+@keyframes from8to7{
+	from {background-image: url("targaryen.jpg")}
+	to {background-image: url("stark.jpg")}
+}
+@keyframes from8to9{
+	from {background-image: url("targaryen.jpg")}
+	to {background-image: url("tully.jpg")}
+}
+@keyframes from9to8{
+	from {background-image: url("tully.jpg")}
+	to {background-image: url("targaryen.jpg")}
+}
+@keyframes from9to10{
+	from {background-image: url("tully.jpg")}
+	to {background-image: url("wayne.jpg")}
+}
+@keyframes from10to9{
+	from {background-image: url("wayne.jpg")}
+	to {background-image: url("tully.jpg")}
+}
+@keyframes from10to11{
+	from {background-image: url("wayne.jpg")}
+	to {background-image: url("whitewalkers.jpg")}
+}
+@keyframes from11to10{
+	from {background-image: url("whitewalkers.jpg")}
+	to {background-image: url("wayne.jpg")}
+}
+@keyframes from11to0{
+	from {background-image: url("whitewalkers.jpg")}
+	to {background-image: url("oldtree.jpg")}
+}
+@keyframes from0to11{
+	from {background-image: url("oldtree.jpg")}
+	to {background-image: url("whitewalkers.jpg")}
+}
